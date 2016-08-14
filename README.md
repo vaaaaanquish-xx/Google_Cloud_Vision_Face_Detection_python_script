@@ -4,11 +4,11 @@ Google Cloud Visionの顔検出(FACE_DETECTOPN) API　を叩くやつ
 ## Script
  - main.py : 指定したディレクトリのファイル全部をGoogle APIに投げて結果を保存する
      - レスポンスのjsonも保存するようになった
- - dace_detector.py : 1枚画像投げてGoogle APIを体験するやつ
+ - face_detector.py : 1枚画像投げてGoogle APIを体験するやつ
 
 ## Usage
  - face_detector.py内でAPIキーを指定
- - 画像1枚送りたい時はdace_detector.pyで画像へのpathを指定して
+ - 画像1枚送りたい時はface_detector.pyで画像へのpathを指定して
 
     ```python face_detector.py```
 
